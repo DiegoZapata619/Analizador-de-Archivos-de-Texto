@@ -16,7 +16,7 @@ while True:
         print("El archivo no existe. Intente de nuevo.")
         archivo= input("Ingrese la dirección del archivo de texto: ")
 
-#Se crea yb array que almacenará las coincidencias
+#Se crea un array que almacenará las coincidencias
 coincidencias = []
 
 #Input de la expresión regular y el nombre del archivo de salida
@@ -38,3 +38,4 @@ if coincidencias:
     print(f"Se encontraron {len(coincidencias)} coincidencias. Se han guardado en '{nombre_texto_final}'.")
 else:
     print("No se encontraron coincidencias.")
+
